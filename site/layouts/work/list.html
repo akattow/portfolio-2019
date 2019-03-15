@@ -1,70 +1,70 @@
 {{ define "main" }}
-    <h1>Demo Work</h1>
-    
-    <section class="work list">
-        <div>
-            <h2>Front-End</h2>
-                <a href="https://codepen.io/kattow88/full/qREwwK" class="full">
-                    <h3>Weather App</h3>
-                    <p>100% chance of pugs</p>
-                </a>
-            
-                <a href="https://codepen.io/kattow88/full/vvbZqV" class="full">
-                    <h3>Yes, Another Calculator</h3>
-                    <p>React</p>
-                </a>
-            
-                <a href="https://codepen.io/kattow88/pen/NJXyvp" class="full">
-                    <h3>Pomodoro Clock</h3>
-                    <p>WIP</p>
-                </a>
-
-                <a href="https://codepen.io/kattow88/full/oJvwBW" class="full">
-                    <h3>Markdown Previewer</h3>
-                    <p>React</p>
-                </a>
-            
-                <a href="https://codepen.io/kattow88/full/JwaWZX" class="full">
-                    <h3>Magic 8 Ball</h3>
-                    <p>React</p>
-                </a>
-            
-                <a href="https://codepen.io/kattow88/full/gZQPzg" class="full">
-                    <h3>Drum Machine (React)</h3>
-                    <p>React</p>
-                </a>
-            
-                <a href="https://codepen.io/kattow88/full/xgxbLz" class="full">
-                    <h3>Random Quote Generator</h3>
-                    <p>(Warning: Political)</p>
-                </a>
-
-                <a href="https://codepen.io/kattow88/full/WRdqdN" class="full">
-                    <h3>Wikipedia Search</h3>
-                    <p>Experiments with shape</p>
-                </a>
-            
-        </div>
-        <div>
-            <h2>UX and IA</h2>
-            {{ range .Data.Pages }}
-                
-                    <a href="{{ .Permalink }}" class="full">
-                        <!-- <img src="/img/{{ .Params.case_feature_img }}" alt=""> -->
-                        <h3>{{ .Title }}</h3>
-                        <p>{{ .Params.subtitle }}</p>
+    <article>
+        <h1>Demo Work</h1>
+        <section class="work list">
+            <div>
+                <h2>Front-End</h2>
+                    <a href="https://codepen.io/kattow88/full/qREwwK" class="full">
+                        <h3>Weather App</h3>
+                        <p>100% chance of pugs</p>
                     </a>
                 
-            {{ end }}
-        </div>
-        <div>
-            <h2>Code</h2>
-            <a href="https://gist.github.com/kattow88">
-                <h3>Javascript Gists</h3>
-                <p>Tiny, fun functions</p>
-            </a>
-        </div>
-    </section>
-    
+                    <a href="https://codepen.io/kattow88/full/vvbZqV" class="full">
+                        <h3>Yes, Another Calculator</h3>
+                        <p>React</p>
+                    </a>
+                
+                    <a href="https://codepen.io/kattow88/pen/NJXyvp" class="full">
+                        <h3>Pomodoro Clock</h3>
+                        <p>WIP</p>
+                    </a>
+
+                    <a href="https://codepen.io/kattow88/full/oJvwBW" class="full">
+                        <h3>Markdown Previewer</h3>
+                        <p>React</p>
+                    </a>
+                
+                    <a href="https://codepen.io/kattow88/full/JwaWZX" class="full">
+                        <h3>Magic 8 Ball</h3>
+                        <p>React</p>
+                    </a>
+                
+                    <a href="https://codepen.io/kattow88/full/gZQPzg" class="full">
+                        <h3>Drum Machine (React)</h3>
+                        <p>React</p>
+                    </a>
+                
+                    <a href="https://codepen.io/kattow88/full/xgxbLz" class="full">
+                        <h3>Random Quote Generator</h3>
+                        <p>(Warning: Political)</p>
+                    </a>
+
+                    <a href="https://codepen.io/kattow88/full/WRdqdN" class="full">
+                        <h3>Wikipedia Search</h3>
+                        <p>Experiments with shape</p>
+                    </a>
+                
+            </div>
+            <div>
+                <h2>UX and IA</h2>
+                {{ range .Data.Pages }}
+                    
+                        <a href="{{ .Permalink }}" class="full">
+                            <!-- <img src="/img/{{ .Params.case_feature_img }}" alt=""> -->
+                            <h3>{{ .Title }}</h3>
+                            <p>{{ .Params.subtitle }}</p>
+                        </a>
+                    
+                {{ end }}
+            </div>
+            <div>
+                <h2>Code</h2>
+                <a href="https://gist.github.com/kattow88">
+                    <h3>Javascript Gists</h3>
+                    <p>Tiny, fun functions</p>
+                </a>
+            </div>
+        </section>
+    </article>
         
 {{end}}
