@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------
+Top Nav
+-------------------------------------------------------------- */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & ul {
+        flex: 1 0 auto;
+        list-style: none;
+        -webkit-padding-start: 0;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+
+        & :first-child {
+            padding-left: 0;
+        }
+
+        & :last-child {
+            padding-right: 0;
+        }
+
+        @media screen and (min-width: 500px) {
+            justify-content: flex-end;
+
+            & :first-child {
+                flex: 1 0 auto;
+            }
+        }
+
+        & li {
+            flex: 0 0 auto;
+            padding: 0 0.5em;
+
+            @media screen and (min-width: 350px) {
+                padding: 0 1em;
+            }
+
+            & a {
+                padding: 1px 2px;
+                font-weight: 700;
+                text-decoration: none;
+                color: #000;
+                background: linear-gradient(to top, transparent 25%),
+                    linear-gradient(to top, darkturquoise 25%, transparent 25%);
+
+                &:hover {
+                    cursor: pointer;
+                    color: #FFF;
+                    background: var(--slate);
+                }
+            }
+
+            & .current-page {
+                background: linear-gradient(to top, transparent 25%),
+                    linear-gradient(to top, #2e2ed1 25%, transparent 25%);
+            }
+        }
+    }
+}
+
+/* .home {
+
+    & nav ul li a.current-page {
+        background: linear-gradient(to top, transparent 25%),
+            linear-gradient(to top, #2e2ed1 25%, transparent 25%);
+
+        &:hover {
+            cursor: pointer;
+            color: #FFF;
+            background: var(--slate);
+        }
+    }
+} */
