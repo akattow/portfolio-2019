@@ -16,5 +16,5 @@ Languages: JavaScript, jQuery, React, Less/SCSS/PostCSS/CSS3, HTML5, C#, ASP.NET
 
 Tools: Visual Studio, VS Code, Adobe Creative Suite, Microsoft Office.
 
-Get all the details on my <a href="/resume.html">resume page</a> or <a href="/ResumeTow.pdf">download the PDF</a>.
+Get all the details on my <a href="/resume.html" target="_blank">resume page</a> or <a href="/ResumeTow.pdf" target="_blank">download the PDF</a>.
 {{% /section %}}

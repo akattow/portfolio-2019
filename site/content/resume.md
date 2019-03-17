@@ -120,9 +120,9 @@ A brief selection of completed courses and certificates:
 
 Development:
 
-- Certificate in Responsive Design
-- Certificate in JavaScript Algorithms and Data Structures
-- Certificate in Front-End Libraries
+- <a href="https://www.freecodecamp.org/certification/kattow88/responsive-web-design" target="_blank">Certificate in Responsive Design</a>
+- <a href="https://www.freecodecamp.org/certification/kattow88/javascript-algorithms-and-data-structures" target="_blank">Certificate in JavaScript Algorithms and Data Structures</a>
+- <a href="https://www.freecodecamp.org/certification/kattow88/front-end-libraries" target="_blank">Certificate in Front-End Libraries</a>
 
 Design:
 
