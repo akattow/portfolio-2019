@@ -29,9 +29,9 @@ I’m a front-end and UX developer with an endless appetite for new knowledge. I
 
 - Design and develop modern web learning experiences that support current technologies and models of instructional design (<a href="https://www.adaptlearning.org/">Adapt Learning</a>)
 - Research and test new features and designs
-- Manage various project content collaborators including subject matter experts, designers, and management.
+- Manage various project content collaborators including subject matter experts, designers, and management
 - Communicate project goals, expectations, and progress
-- Provide recommendations for instructional design, sequencing, assessment and evaluation
+- Provide recommendations for expanding interactivity and improving user experiences
 
 **Accomplishments**
 
@@ -50,8 +50,8 @@ I’m a front-end and UX developer with an endless appetite for new knowledge. I
 **Responsibilities**
 
 - Front-end design & development in WordPress
-- Built data-driven user personas & wrote user stories
-- Created designs from concept to final proof for print, web, & social
+- Build data-driven user personas & write user stories
+- Create designs from concept to final proof for print, web, & social
   <br>
   <br>
 
@@ -63,16 +63,16 @@ I’m a front-end and UX developer with an endless appetite for new knowledge. I
 
 **Responsibilities**
 
-- Built and designed company website
-- Managed communications, audience development, & marketing
-- Coordinated content, design, & executuion of company communications across team & vendors
-- Trained team on website & social media management
-- Designed season graphic & marketing materials
+- Maintain company website
+- Manage communications, audience development, & marketing
+- Coordinate content, design, & executuion of company communications across team & vendors
+- Train team on website & social media management
+- Design season graphic & marketing materials
 
 **Accomplishments**
 
-- Increased single ticket sales by 40% over two years
 - Redesigned & built company website to be fully responsive, improving user experience and accessibility while improving the ecommerce process.
+- Increased single ticket sales by 40% over two years
   {{% /section %}}
 
 {{% section id="cv-skills" %}}
@@ -96,19 +96,13 @@ VS Code, Visual Studio, Github, Axure, Adobe XD, Adobe Illustrator, Microsoft Of
 
 ## Education
 
-### Graduate classes
-
-#### UW Milwaukee
-
-Mathmatical & Computing Fundamentals, Survey of Information Security, Information Architecture, Introduction to Data Science, Software Development in Python
-
-<!-- ### Human-Computer Interaction
+### Human-Computer Interaction
 
 #### UW Milwaukee | MS Information Science & Technology
 
 #### September 2017 - present
 
-Part-time student. Expected graduation Spring 2021.-->
+Part-time student. Expected graduation 2022.
 
 ### Self-directed
 
