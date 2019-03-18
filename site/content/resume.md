@@ -96,9 +96,11 @@ VS Code, Visual Studio, Github, Axure, Adobe XD, Adobe Illustrator, Microsoft Of
 
 ## Education
 
-### Human-Computer Interaction
+### MS Information Science & Technology
 
-#### UW Milwaukee | MS Information Science & Technology
+#### Human-Computer Interaction
+
+#### UW Milwaukee
 
 #### September 2017 - present
 
