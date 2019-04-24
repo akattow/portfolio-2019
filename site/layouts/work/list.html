@@ -2,7 +2,19 @@
     <article>
         <h1>Demo Work</h1>
         <section class="work list">
-            <div>
+            <div> // ux
+                <h2>UX and IA</h2>
+                {{ range .Data.Pages }}
+                    
+                        <a href="{{ .Permalink }}" class="full">
+                            <!-- <img src="/img/{{ .Params.case_feature_img }}" alt=""> -->
+                            <h3>{{ .Title }}</h3>
+                            <p>{{ .Params.subtitle }}</p>
+                        </a>
+                    
+                {{ end }}
+            </div>
+            <div> // front end
                 <h2>Front-End</h2>
                     <a href="https://codepen.io/kattow88/full/qREwwK" class="full">
                         <h3>Weather App</h3>
@@ -45,20 +57,8 @@
                     </a>
                 
             </div>
-            <div>
-                <h2>UX and IA</h2>
-                {{ range .Data.Pages }}
-                    
-                        <a href="{{ .Permalink }}" class="full">
-                            <!-- <img src="/img/{{ .Params.case_feature_img }}" alt=""> -->
-                            <h3>{{ .Title }}</h3>
-                            <p>{{ .Params.subtitle }}</p>
-                        </a>
-                    
-                {{ end }}
-            </div>
-            <div>
-                <h2>Code</h2>
+            <div> // code snips
+                <h2>Code Snippets</h2>
                 <a href="https://gist.github.com/kattow88">
                     <h3>Javascript Gists</h3>
                     <p>Tiny, fun functions</p>

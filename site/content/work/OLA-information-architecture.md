@@ -10,7 +10,7 @@ weight: 10
 
 This project was completed as part of a graduate course on Information Architecture at the University of Wisconsin - Milwaukee. The premise of the project is the redesign of a fictional company website. The project, and this case study, will refer to the fictional Online Learning Association (OLA), a professional association for those working in online learning, training, and development.
 
-What follows is an excerpt from the final report. The full <a href="/IA_DesignReport.pdf">final report</a> is available as well.
+What follows is an excerpt from the final report. The full <a href="/IA_DesignReport.pdf" target="_blank">final report</a> is available as well.
 
 You can jump to:
 
