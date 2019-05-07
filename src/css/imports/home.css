@@ -4,11 +4,11 @@ Home
 
 .home {
     background: rgb(255, 255, 255);
-    background: linear-gradient(
+    /* background: linear-gradient(
         165deg,
         rgba(255, 255, 255, 1) 0%,
         rgba(175, 238, 238, 1) 100%
-    );
+    ); */
 }
 
 .home .content {
@@ -17,9 +17,15 @@ Home
 }
 
 .hello {
+    & h1 {
+        & .emphasis {
+            font-weight: 700;
+            color: var(--slate);
 
-    & h2,
-    & h3 {
-        padding: 0;
+        }
+        font-weight: 400;
+    }
+    & h2 {
+        font-weight: 400;
     }
 }

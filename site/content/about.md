@@ -1,12 +1,12 @@
 ---
-title: "about me"
+title: "About Me"
 description: "About Kat"
 class: "about"
 ---
 
 {{% section %}}
 
-# about me
+# About Me
 
 I am currently developing web experiences and designing interactive and blended learning at the International Foundation for Employee Benefit Plans.
 
