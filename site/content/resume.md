@@ -5,14 +5,12 @@ title: "Resume"
 class: "resume"
 ---
 
-If you prefer, you can <a href="/ResumeTow.pdf">download the PDF</a>.
-
+# Kat Tow
 {{% section id="cv-about" %}}
 
-## About Me
-
-<br>
 I’m a front-end and UX developer with an endless appetite for new knowledge. I have over 5 years of professional design experience with over two years of experience in front-end development.
+
+<a href="/ResumeTow.pdf">Download the PDF</a>
 {{% /section %}}
 
 {{% section id="cv-experience" %}}

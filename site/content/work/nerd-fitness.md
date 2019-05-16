@@ -4,7 +4,6 @@ linktitle: "Nerd Fitness"
 title: "Nerd Fitness"
 subtitle: "App research & design"
 weight: 11
-case_feature_img: "nerdfitness/NF3personas.png"
 ---
 {{% section id="nf-top" %}}
 ### Introduction
@@ -15,10 +14,11 @@ Thhis project was an exercise in redesigning the Quest system to help users trac
 
 You can jump to:
 
-* <a href="#nf-research">Research</a>
-* <a href="#nf-define">Defining the Project</a>
-* <a href="#nf-design">Design</a>
-* <a href="#nf-tldr">Conclusion</a>
+* [Research] ( {{< relref "#nf-research" >}})
+* [Defining the Project] ( {{< relref "#nf-define" >}})
+* [Design] ( {{< relref "#nf-design" >}})
+* [Conclusion] ( {{< relref "#nf-tldr" >}})
+
 {{% /section %}}
 
 {{% section id="nf-research" %}}
@@ -98,10 +98,10 @@ Feel free to <a href="https://www.figma.com/file/Yf2tI8mZeLjDYZmahhgoeu/NF-lo-fi
 {{% /section %}}
 
 {{% section id="nf-tldr"%}}
-### tl;dr
+### Conclusion
 My research showed major problems for users tracking not only what they have accomplished, but what else they might want to accomplish as part of their overall fitness goals. Users typically ended up siloed in one section of the NF website (e.g. forums, their profile page) or out of the system entirely.
 
 I ended up creating mobile prototypes for a progressive web app. This app reimagines the fractured architecture of the NF site while simultaneously offering one unified portal for users. It also defines the difference between Quests and Achievements, and offering tracking built in to the user's profile.
 {{% /section %}}
 
-Thanks for reading! You can always <a href="#nf-top">jump back to the top</a>.
+Thanks for reading! You can always [jump back to the top] ( {{< relref "#nf-top" >}}).

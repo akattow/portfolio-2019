@@ -2,7 +2,7 @@
 author: "Kat Tow"
 linktitle: "Online Learning Association"
 title: "Online Learning Association"
-subtitle: "IA and UX"
+subtitle: "IA and UX design"
 weight: 10
 ---
 {{% section id="ola-top"%}}
@@ -12,19 +12,18 @@ This project was completed as part of a graduate course on Information Architect
 
 What follows is an excerpt from the final report. The full <a href="/IA_DesignReport.pdf" target="_blank">final report</a> is available as well.
 
-You can jump to:
-
-* <a href="#ola-context">Information Environment</a>
-* <a href="#ola-ca">Competitive Analysis</a>
-* <a href="#ola-ia-design">IA Design</a>
-* <a href="#ola-wireframes">Wireframes</a>
-* <a href="#ola-conclusion">Conclusion</a>
+* [Information Environment] ( {{< relref "#ola-context" >}})
+* [Competitive Analysis] ( {{< relref "#ola-ca" >}})
+* [IA Design] ( {{< relref "#ola-ia-design" >}})
+* [Wireframes] ( {{< relref "#ola-wireframes" >}})
+* [Conclusion] ( {{< relref "#ola-conclusion" >}})
 {{% /section %}}
 
-{{% section id="ola-context" %}}
+{{% section %}}
 ### Information Environment
 #### Website Business Context
-The redesign of the Online Learning Association (OLA) website (onlinelearningassociation.com) is essential to the support of OLA’s mission to provide learning, resources, networking, and professional development to online learning professionals. Developing and providing up-to-date resources and education creates a great deal of content on the OLA website.
+The Online Learning Association (OLA) website (onlinelearningassociation.com) is essential to the support of OLA’s mission to provide learning, resources, networking, and professional development to online learning professionals. Developing and providing up-to-date resources and education creates a great deal of content on the OLA website.
+The site design has not been updated in a number of years, and additional content and services have been added to the site in an ad-hoc manner. Developing a clear taxonomy and information architecture is an essential first step in the website redesign.
 
 #### Website Content
 Most users arrive at the OLA website seeking information about a specific area of online learning, such as responsive design, AR/VR/immersive learning, education and development leadership, learning theories, and many more. To support different users with diverse preferences, backgrounds, and experience, OLA shares resources in many different types; blog posts, white papers, research reports, event descriptions, podcasts, conference recordings, webcasts, and videos. Although written posts and webpages dominate due to their relative ease-of-development, media recordings (e.g., webcasts, video, etc.) receive a large amount of traffic and rank highly in user surveys. These myriad content types are comprised of HTML pages, PDF documents, JPEGs, PNGs, MP4s, and MP3s. Accurately cataloguing the current array will allow clear direction in the bottom-up portion of the site redesign.
@@ -157,5 +156,5 @@ The eLearning Guild site relied on sometimes-confusing labels in their search sy
 ### Conclusion
 This project was completed for a university course, and did require a desktop-first design. Were I to revisit this project, I would start from this research and begin a visual design process mobile-first to further develop and refine the vision for this site.
 
-Thanks for reading! You can <a href="/IA_DesignReport.pdf">download the full report here</a> or <a href="#ola-top">jump back to the top</a>.
+Thanks for reading! You can <a href="/IA_DesignReport.pdf">download the full report here</a> or [jump back to the top] ( {{< relref "#ola-top" >}}).
 {{% /section %}}
